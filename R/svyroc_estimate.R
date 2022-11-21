@@ -9,6 +9,7 @@
 #' This function estimates the ROC curve non-parametrically while accounting for the complex sampling design
 #'
 #' @return A list containing the ROC curve and the corresponding AUC
+#' @export
 
 svyroc_estimate <- function(design,
                             prediction,

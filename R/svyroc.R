@@ -11,6 +11,7 @@
 #' @param n_boot number of bootstrap replicates used to compute SE when se_method = "bootstrap"
 #'
 #' @return list containing the ROC curve and the corresponding AUC
+#' @export
 
 svyroc <- function(design,
                    prediction,

@@ -13,6 +13,7 @@ estimate_mu_pi1 <- function(weight){
 #' @param design survey.design object specifying the complex survey design
 #' @param fpr_grid NULL (default) or numeric vector ranging from 0 to 1 specifying the desired cutpoints for the FPR.
 #' If set to NULL, the cutpoints are defined by the unique values of the predictor
+#' @export
 
 svyroc_var <- function(roc_data,
                        design,

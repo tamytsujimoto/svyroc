@@ -6,6 +6,7 @@
 #' A function that computes the numeric value under the ROC curve with trapezoidal rule
 #'
 #' @return a numeric value for the area under the ROC curve (AUC-ROC)
+#' @export
 
 svyroc_auc <- function(fpr, tpr){
 
